@@ -149,7 +149,7 @@ while lulaa: # start the game loop
         print_win()
         break
     elif p=='y':
-        board=[1,8,3,6,5,9,7,2,9] #Reset the array
+        board=[1,2,3,6,5,9,7,8,9] #Reset the array
         print_board(board)
         p=" " 
         print_win()
